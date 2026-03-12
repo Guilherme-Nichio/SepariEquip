@@ -11,7 +11,18 @@
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; cursor: none; }
-
+* {
+  outline: 1px solid red;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
 html {
     scroll-behavior: smooth;
     font-family: var(--font-tech);
